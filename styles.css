@@ -10,14 +10,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #6200ea;
+    background-color: #333;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -39,6 +39,7 @@ nav .logo {
 .header-content h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #eee;
 }
 
 main {
@@ -58,17 +59,18 @@ section {
 section h2 {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
-    color: #6200ea;
+    color: #555;
 }
 
 section p {
     margin-bottom: 1rem;
     line-height: 1.6;
+    color: #666;
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #6200ea;
+    background-color: #333;
     color: #fff;
 }
